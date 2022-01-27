@@ -1,10 +1,251 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>
-			Hello World
-		</title>
-	</head>
-	<body>
-		Write your code for the submission by editing this file
-	</body>
+<head>
+<title>Covish*t</title>
+<style type="text/css">
+    body{
+        background-color: rgb(99, 0, 0);
+        color: white;
+        margin: 0;
+    }
+
+    .container {
+        overflow: hidden;
+        margin:auto;
+    }
+    #navbar{
+        color:white;
+        background-color:black;
+        margin: 0 px;
+        width:100%;
+        position:absolute;
+        position:fixed;
+        top:0px;
+        
+    }
+    #navbar ul{
+        list-style: none;
+    }
+    #navbar li{
+        display:inline;
+        padding: 15px;
+    }
+    #navbar a{
+        color:white;
+        text-decoration: none;
+    }
+
+    #icon {
+        position:fixed;
+        top:10px;
+        left:15px;
+        width:30px;
+    }
+
+    #home {
+        margin-top:30px;
+        background-image:url('https://media.istockphoto.com/vectors/futuristic-coronavirus-covid19-vaccine-concept-on-dark-blue-vector-id1213580299?k=20&m=1213580299&s=612x612&w=0&h=XWpiqKjABTjndz2XdDxGqr8ga6YGsB6lnm71cQ3qlR4=');
+        text-align: center;
+        font-size: 20px;
+        padding:80px 0px;
+        width:100%;
+    }
+
+    #tips p{
+        width:90%;
+        font-size:30px;
+        border:1px solid white;
+        background-color:white;
+        height:220px;
+        color:black;
+        font-optical-sizing: center;
+        border-radius:10px;
+    }
+
+    #tips em{
+        float:left;
+        font-style: none;
+        width:30%;
+
+    }
+    #tips img{
+        height:200px;
+        float: right;
+        padding:10px;
+    }
+
+    #tipimg{
+        width:100%;
+        border-radius: 10px;
+    }
+
+
+    .h2 {
+       text-align: center;
+       padding:30px;
+    }
+
+    #pic3{
+        height:150px;
+    }
+
+    #memes img{
+        height:300px;
+        width:300px;
+        padding:10px;
+    }
+
+
+    #myimg{
+        float:left;
+        max-width:30%;
+        box-sizing: border-box;
+        padding:10px;
+        box-sizing: border-box;
+    }
+    #myinfo{
+        float:right;
+        width:70%;
+        box-sizing: border-box;
+        min-height:150px ;
+        padding:10px;
+    }
+    #footer{
+        text-align: center;
+        background-color:rgb(14,5,40) ;
+        width:100%;
+        padding: 25px;
+        margin-bottom:0px;
+        box-sizing: border-box;
+
+    }
+
+    #links ul{
+        position:fixed;
+        top:30px;
+        list-style: none;
+        padding:15px;
+        background-color:black;
+    }
+
+    #links img{
+        height:30px;
+        padding-top:10px;
+    }
+</style>
+</head>
+
+<!--BODY------------------------------------------------------->
+
+
+<body>
+    <!--navbar-->
+     <nav id="navbar">
+        <div class="container">
+         <ul> 
+             <li><a href="https://www.youtube.com/watch?v=KGAzkM_sf3I" target="_blank"><img id="icon" src="https://icon-library.com/images/memes-icon/memes-icon-8.jpg"></a></li>
+             <li><a href="#home">Home</a></li>
+             <li><a href="#tips">Tips</a></li>
+             <li><a href="#symptoms">Symptoms</a></li>
+             <li><a href="#memes">Memes</a></li>
+             <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">YouTube</a></li>
+         </ul>
+         </div>
+    </nav>
+    
+
+
+
+     <!--Home-->
+    <section id="home">
+     <div class="container" > 
+            <h1>When covid is near ,dont fear!</h1>
+            <br>
+            <h1>Just do this dear :)</h1>
+     </div>
+    </section>
+
+
+
+     <!--Tips-->
+     <section id="tips">
+        
+            <h2 class="h2">Tips</h2>
+            <center>
+            <div class="container" >
+                <p><em>Wear Masks</em><img  src="https://media.istockphoto.com/vectors/woman-wearing-glasses-and-medical-face-mask-vector-cartoon-vector-id1263509830?k=20&m=1263509830&s=170667a&w=0&h=apKk4Ei2NSZduh1dr7YCA7b0AMJV8SjeSk88p12oN60="></p>
+            </div>
+
+            <div class="container" >
+                 <p><em>Wash Hands</em><img  src="https://cdn1.vectorstock.com/i/1000x1000/93/10/cartoon-person-washing-hands-vector-30459310.jpg"></p>
+            </div>
+
+            <div class="container" >
+                <p><em>Maintain 6ft Distance</em><img id="pic3" src="https://thumbs.dreamstime.com/b/print-182561925.jpg"></p>
+            </div>
+            </center>
+    </section>
+
+
+
+      <!--Symptoms-->
+      <section id="symptoms">
+        <div class="container" >
+            <h2 class="h2">Symptoms</h2>
+            <img id="tipimg" src="https://www.who.int/images/default-source/health-topics/coronavirus/covid19-infographic-symptoms-final.png?sfvrsn=57850cbc_6">
+        </div>
+    </section>
+
+
+
+      <!--Memes-->
+      <section id="memes">
+        <center>
+        <div class="container" >
+            <h2 class="h2">Memes</h2>
+            <img class="memepic" src="https://www.guide4moms.com/wp-content/uploads/2021/12/2022-Memes-10.jpg">
+            <img class="memepic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFhr-DmqG1CpbAnRBC-QjEfW4-4jf7Ao07jg&usqp=CAU">
+            <img class="memepic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx5cELqhmtU7iICSIYZgOOi4N2OBieU5NIHw&usqp=CAU">
+            <img class="memepic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdGH0qx2xZFF1AOu60QxiJe0-j799ZKO07Q&usqp=CAU">
+            <img class="memepic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvozCbM_fJAHGPt0_cJX9iHu8P86SA8F9cLA&usqp=CAU">
+            <img class="memepic" src="https://i.kym-cdn.com/photos/images/original/002/039/844/958.png">
+        </div>
+        </center>
+    </section>
+
+
+
+    <!--About-->
+    <section id="about">
+        <div class="container">
+            <h2 class="h2">About</h2>
+            <img id="myimg" src="https://pbs.twimg.com/profile_images/1235977618316390400/1PX_p3sQ_400x400.jpg">
+            <p id="myinfo">Whats up guys,Deepanshu here from Mumbai ,joining Production n Industrial Engineering. In love with all sports but my fav is Football(Ankara Messi!) & Cricket(MI-Duniya Hila Denge).
+                Hella passionate about Coding, travelling,trekking, managing finance ,Stock & Crypto Analysis. Fond of Painting (intermediate level), reading, writing ,editing,Gaming(a lot) & mythology(a bit),
+                Damn interested to learn about Startups n Entrepreneurship (Planning to build a team)</p>
+        </div>
+    </section>
+
+
+
+      <!--Footer-->
+      <footer id="footer">
+        <div class="container">
+            <p>Not made with stress,by student of IIT Delhi XD</p>
+            <p>Copyrights &copy; 2022 , Devclub IIT Delhi</p>
+        </div>
+    </footer>
+
+    <!--Social links-->
+    <section id="links">
+        <div class="container">
+            <ul>
+                <li><a href="https://www.instagram.com/deenium/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/deepanshu-nimbekar-933882223/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEUKZsL///8AZME7eMgAWb7i6fUAXL/Az+oAYsFjj9B1m9QAYMBGgswAVr0AXb8AWr5ZjdBWh80ZbMTO3PCzx+drl9T2+f2Ssd7G1u0dbsXF1e3w9fs2dsfl7ffV4fIocsaApNmowOSMrNyrw+Wbt+AAUryFqNr2AL+0AAADz0lEQVR4nO3ca1+qMACAcZiA5ATMW+a98vT9P+LROkXiNruMLXae/2v1xyOy6QCjCAAAAAAAAAAAAAAAAAAAALBGnPjeiPbkZSJ36/W4qmSQlbIYTTfxyXx72CXBNYpkv4o/mAwDayx7m7hhWoWUWM2afUebcTiJ5UAReDweo1AS5VAZeNyLgXxQhZxrCo/Hou+NsyJ70AXGcS+EnSgifWC8SHxvngXyzlAYhzCeJqmp8FH63r4fE8IUGC+6P9YI3VTxatP9AzFXz/bvCt8b+GNyT2HX5aov3UEVip4xMO3+SBNlxsJp6Xv7fq5amApn3Z/xzQfivAzgW1tUrPSFDwF8SM1zfiDLisUk5KPwREjN5/QpgKnilbhXrmP0uz/bvxPR9jLwEFDgacm7+Ut/c5v53ijLSvHw4WhMB0Xue4usE2U1vOtv03Qy3e+S8PpeCJlVSZKVgcyCAIDfT+SyrI6Ok0+As4+QVbGbHabLxWTRf7qb7YrMa6XIdZpbpX3k2QPzSuyXjV8rk8dd4i1SjG90bs+3SQx1D7yvH5gnt0vlr830ufK06mNYMW2cl8nUm370/laIYmQ4W3covSwaGAob68FZ/1phudOuiLyYDwoPu9FeoSiejX0nE+H+Z4u1QiHNO/DVfOh8hdJWYT42LLx+NHN9XtlSoVxrL8tpGjheILFTqFmvU7txO6RaKZT5Jz+ir9xeiWSl8M9nBpnayunVqzYKh9eniXNTl8vpVvbhFwOP74nDadFG4RdGmbeXdriibqPwG2budqKnQofXQHgqjIfOhlNfhX1nX958FcaZq53ordDZOXRvhVNXX8DtF87TNP3EDLlyNZpaLlwOxkWSJIWYXX20q4vIrRY+jat/S4tCVmPjBWXuDkSLhave2V02ojDeBxAfHK1n2CvcZs1vYhcXQJxZOhpqrBWqvofpr7fSPOE3F84vTgKcXvze9AxHvy9sFY6U40Zleo6jMxmWChfqHWK8n8PRdGGpULe4lBiWqHZdKtzqRg3TkxwtudkpfNbN3tKwSNWpQu0hJQyrVF0q3GgHftPNcV0qXOp/sBdhFBou6jcMpl0qNNxrmlz8XUMnC/fBFw7067uGG40ptITCGoVqFLaPwhqFahS2j8IahWoUto/CGoVqFLaPwhqFahS2j8IahWoUto/CGoVqFLaPwhqFahS2j8IahWoUto/CGoVqFLaPwlqAhc1/4NHfx2Qq9H7lXhT1dNaNf1HqDc/djt4YrroXa+3rtx1Wb4PWlQfq/zPrWy8PAAAAAAAAAAAAAAAAAAAA4D/0F5lQSZ+5G/qbAAAAAElFTkSuQmCC"></a></li>
+                <li><a href="https://github.com/deenium" target="_blank"><img src="https://avatars.githubusercontent.com/u/9919?s=280&v=4"></a></li>
+            </ul>
+        </div>
+    </section>
+
+</body>
 </html>
